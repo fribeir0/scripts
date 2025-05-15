@@ -37,6 +37,6 @@ func main () {
 	if err != nil {
 		fmt.Println("erro ao listar processos:",err)
 	}
-	fmt.Println("process:",psAux)
+	fmt.Println("process:",string(psAux))
 
 }
