@@ -33,7 +33,7 @@ func main () {
 		fmt.Println("erro ao ver portas abertas",err)
 	}
 		fmt.Println("portas abertas:",openP)
-	psAux,err:= ExecCommands("psaux")
+	psAux,err:= ExecCommands("ps","aux")
 	if err != nil {
 		fmt.Println("erro ao listar processos:",err)
 	}
